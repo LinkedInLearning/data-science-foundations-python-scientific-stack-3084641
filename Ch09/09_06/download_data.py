@@ -1,4 +1,4 @@
-"""Download 10% of January 2020 taxi data to taxi.csv"""
+"""Download 10% of January 2016 taxi data to taxi.csv"""
 
 from urllib.request import urlopen
 from time import monotonic
@@ -6,7 +6,7 @@ from pathlib import Path
 
 here = Path(__file__).absolute().parent
 csv_file = here / 'taxi.csv'
-url = 'https://s3.amazonaws.com/nyc-tlc/csv_backup/yellow_tripdata_2020-01.csv'
+url = 'https://s3.amazonaws.com/nyc-tlc/csv_backup/yellow_tripdata_2016-01.csv'
 out_name = '/'.join(csv_file.parts[-3:])
 
 start = monotonic()

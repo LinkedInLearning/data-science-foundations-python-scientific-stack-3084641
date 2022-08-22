@@ -1,4 +1,4 @@
-"""Download 10% of January 2020 taxi data to taxi.csv"""
+"""Download 10% of January 2016 taxi data to taxi.csv"""
 
 from urllib.request import urlopen
 from time import monotonic
