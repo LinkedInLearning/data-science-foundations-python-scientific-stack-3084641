@@ -6,7 +6,7 @@ from pathlib import Path
 
 here = Path(__file__).absolute().parent
 csv_file = here / 'taxi.csv'
-url = 'https://s3.amazonaws.com/nyc-tlc/csv_backup/yellow_tripdata_2020-01.csv'
+url = 'https://s3.amazonaws.com/nyc-tlc/csv_backup/yellow_tripdata_2016-01.csv'
 out_name = '/'.join(csv_file.parts[-3:])
 
 start = monotonic()
@@ -16,7 +16,7 @@ with urlopen(url) as resp:
     print(f'downloading 10% of {size_mb:.2f}MB to {out_name}')
     size = 0
     with open(csv_file, 'wb') as out:
-        for i, line in enumerate(resp, 1):
+        for i, line in enumerate(resp):
             size += len(line)
             prec = (size / payload_size) * 100
             print(f' {prec:.2f}%', end='\r')
