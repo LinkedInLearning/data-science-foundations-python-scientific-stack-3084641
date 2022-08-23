@@ -1,0 +1,15 @@
+dask~=2022.8
+folium~=0.12
+ipywidgets~=8.0
+matplotlib~=3.5
+numba~=0.56
+opencv-python~=4.6
+pandas~=1.4
+plotly~=5.10
+pyarrow~=9.0  # Required to read parquet
+pytest~=7.1
+scikit-learn~=1.1
+scipy~=1.9
+shapely~=1.8
+spacy~=3.4
+tensorflow~=2.9
