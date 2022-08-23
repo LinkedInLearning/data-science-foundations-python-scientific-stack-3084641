@@ -1,3 +1,0 @@
-# Production requirements
-
-numpy==1.21.2

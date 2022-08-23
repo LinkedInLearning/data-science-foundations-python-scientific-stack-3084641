@@ -1,6 +1,0 @@
-# Development requirements 
-
-# Include production requirements
--r prod-requirements.txt
-
-pytest==6.2.5
