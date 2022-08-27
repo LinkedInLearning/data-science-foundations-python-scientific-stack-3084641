@@ -1,6 +1,7 @@
+*.pkl
 .DS_Store
-node_modules
 .tmp
+node_modules
 npm-debug.log
 taxi.csv
 taxi.parquet
