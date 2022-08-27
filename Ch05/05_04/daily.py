@@ -49,21 +49,6 @@ df.groupby(keys).count()
 )
 
 # %%
-df = df[
-    (df['tpep_pickup_datetime'].dt.year == 2020) &
-    (df['tpep_pickup_datetime'].dt.month == 1)
-]
-df['tpep_pickup_datetime'].describe()
-
-# %%
-(
-    df.groupby(keys)
-    .count()
-    ['VendorID']
-    .plot.bar()
-)
-
-# %%
 s = (
     df.groupby(keys)
     .count()
@@ -72,7 +57,7 @@ s = (
 s.index = s.index.day
 s.index.name = 'Date'
 ax = s.plot.bar(
-    title='Daily Taxi Rides (Jan 2020)',
+    title='Daily Taxi Rides (Jan 2016)',
     rot=0,
 )
 ax.set_ylabel('Number of Rides')
