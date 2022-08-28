@@ -5,7 +5,6 @@ import numpy as np
 def plot_sin(limit):
     xs = np.linspace(-limit, limit, 100)
     plt.plot(xs, np.sin(xs), label='sin(x) [-%s - %s]' % (limit, limit))
-    plt.show()
 
 plot_sin(6)
 
@@ -16,7 +15,6 @@ from ipywidgets import interact
 def plot_sin(limit):
     xs = np.linspace(-limit, limit, 100)
     plt.plot(xs, np.sin(xs), label='sin(x) [-%s - %s]' % (limit, limit))
-    plt.show()
 
 # %%
 from ipywidgets import IntSlider
@@ -25,4 +23,3 @@ from ipywidgets import IntSlider
 def plot_sin(limit):
     xs = np.linspace(-limit, limit, 100)
     plt.plot(xs, np.sin(xs), label='sin(x) [-%s - %s]' % (limit, limit))
-    plt.show()
