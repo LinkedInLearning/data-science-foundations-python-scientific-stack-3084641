@@ -24,7 +24,7 @@ print(sent)
 
 # %%
 for tok in sent:
-	print(f'{tok.text!r} -> {tok.tag_}')
+    print(f'{tok.text!r} -> {tok.tag_}')
 
 # %%
 for ent in doc.ents:

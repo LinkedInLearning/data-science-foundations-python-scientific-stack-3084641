@@ -25,9 +25,9 @@ df.style.applymap(color_round)
 
 # %%
 def color_odd(val):
-	if int(val) % 2 == 1:
-	    return 'background-color: orange'
-	return ''
+    if int(val) % 2 == 1:
+        return 'background-color: orange'
+    return ''
 
 df.style.applymap(color_round).applymap(color_odd)
 
@@ -39,8 +39,8 @@ df.style.applymap(
 
 # %%
 def top50(col):
-	is_top50 = col >= col.median()
-	return [
+    is_top50 = col >= col.median()
+    return [
         'font-weight: bold' if v else ''
         for v in is_top50
     ]

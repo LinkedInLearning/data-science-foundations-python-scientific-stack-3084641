@@ -45,7 +45,7 @@ model.add(Activation('sigmoid'))
 model.compile(
     loss='categorical_crossentropy',
     optimizer='adam',
-	metrics=['accuracy'],
+    metrics=['accuracy'],
 )
 
 # %%
