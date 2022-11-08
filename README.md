@@ -1,5 +1,5 @@
 # Data Science Foundations: Python Scientific Stack 
-This is the repository for the LinkedIn Learning course Data Science Foundations: Python Scientific Stack . The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course Data Science Foundations: Python Scientific Stack. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![Data Science Foundations: Python Scientific Stack ][lil-thumbnail-url]
 
