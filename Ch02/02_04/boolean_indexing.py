@@ -16,13 +16,14 @@ arr[arr >= 1]
 # %%
 arr = np.arange(10)
 
-arr[(arr>2) & (arr<7)]
+print(arr)
+arr[(arr > 2) & (arr < 7)]
 
 # %%
-arr[(arr>7) | (arr<2)]
+arr[(arr > 7) | (arr < 2)]
 
 # %%
-arr[~(arr>7)]
+arr[~(arr > 7)]
 
 # %%
 values = np.random.normal(0, 10, 1_000)
@@ -35,3 +36,4 @@ values[mask]
 
 # %%
 values[mask] = values.mean()
+# %%

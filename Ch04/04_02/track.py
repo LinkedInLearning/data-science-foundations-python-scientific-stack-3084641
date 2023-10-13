@@ -79,3 +79,4 @@ m = folium.Map(
 min_df = df.resample('min').mean()
 min_df.apply(add_marker, axis=1)
 m
+# %%

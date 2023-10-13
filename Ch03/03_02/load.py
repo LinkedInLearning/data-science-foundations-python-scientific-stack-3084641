@@ -36,3 +36,5 @@ df.columns
 df.info()
 # %%
 df.describe()
+
+# %%

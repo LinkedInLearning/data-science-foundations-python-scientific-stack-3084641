@@ -14,3 +14,5 @@ for i in range(3):
 dirname = '/var/log'
 files = !ls $dirname
 print(f'{len(files)} files at {dirname}')
+
+# %%

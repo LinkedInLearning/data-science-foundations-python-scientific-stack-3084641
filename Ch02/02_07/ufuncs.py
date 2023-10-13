@@ -36,3 +36,4 @@ relu(-2) - 7
 # %%
 nv = np.array([-1.0, np.nan, 1.0])
 np.sin(nv)
+# %%

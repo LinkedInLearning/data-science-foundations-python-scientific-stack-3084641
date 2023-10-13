@@ -32,3 +32,4 @@ img[tl_x:br_x, tl_y:tl_y+width] = color
 img[tl_x:br_x, br_y-width:br_y] = color
 
 plt.imshow(img)
+# %%
