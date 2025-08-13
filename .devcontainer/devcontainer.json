@@ -3,7 +3,7 @@
 	"dockerfile": "Dockerfile",
 	"context": "..",
 	"args": { 
-	    "VARIANT": "3.10-bullseye",
+	    "VARIANT": "3.12-bookworm",
 	    "NODE_VERSION": "lts/*"
 	}
     },
